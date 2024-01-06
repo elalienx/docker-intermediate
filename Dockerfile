@@ -1,7 +1,11 @@
-FROM node:20-slim
+# Operating system and app
+FROM node:20-slim as builder
 WORKDIR /app
 COPY package.json .
 RUN npm install
 COPY . .
-EXPOSE 3000
-CMD ["npm", "run", "dev"]
+RUN npm run build
+
+# Web server
+FROM nginx
+COPY --from=builder /app/dist /usr/share/nginx/html
