@@ -1,6 +1,6 @@
 # Docker Intermediate 🥈
 
-See the deployed result: [http://16.171.59.197:8000](http://16.171.59.197:8000)
+See the deployed result: [Amazon Web Services EC2 instance](http://16.171.59.197:8000)
 
 ## About
 
