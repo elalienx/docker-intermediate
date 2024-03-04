@@ -1,7 +1,5 @@
 # Docker Intermediate 🥈
 
-See the deployed result: [Amazon Web Services EC2 instance](http://16.171.59.197:8000)
-
 ## About
 
 This project test how to combine a production build of React using Vite and serve on a real web server using Nginx and deploy to the cloud using AWS EC2
